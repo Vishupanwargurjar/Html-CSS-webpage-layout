@@ -1,0 +1,78 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ================= HEADER ================= */
+
+header {
+    border: 2px solid black;  /* Border added */
+}
+
+.header-div {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid black;  /* Border added */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+/* ================= CONTENT AREA ================= */
+
+.content {
+    height: 400px;              /* Appropriate height */
+    border: 2px solid black;    /* Border added */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* 3 DIVS (100px x 100px) */
+
+.box {
+    height: 100px;              /* Required */
+    width: 100px;               /* Required */
+    border: 2px solid black;    /* Border added */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+/* Different colors with opacity 0.5 */
+
+.box1 {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+.box2 {
+    background-color: rgba(0, 255, 0, 0.5);
+}
+
+.box3 {
+    background-color: rgba(0, 0, 255, 0.5);
+}
+
+/* ================= FOOTER ================= */
+
+footer {
+    border: 2px solid black;  /* Border added */
+}
+
+.footer-div {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid black;  /* Border added */
+    font-size: 14px;
+}
